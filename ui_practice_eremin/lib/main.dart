@@ -37,7 +37,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Практика 3'),
+        title: Text(
+          'Практика 3',
+          style: TextStyle(fontFamily: 'Schyler', fontWeight: FontWeight.bold),
+        ),
         centerTitle: true,
         backgroundColor: Color(0xFF7FFFD4),
       ),
@@ -51,8 +54,10 @@ class _HomePageState extends State<HomePage> {
               child: Text(
                 'Flutter - кроссплатформенный фреймворк для разработки приложений на языке Dart.',
                 style: TextStyle(
+                  fontFamily: 'Trajan Pro',
+                  fontStyle: FontStyle.italic,
                   fontSize: 30,
-                  fontWeight: FontWeight.bold,
+                  //fontWeight: FontWeight.bold,
                   color: Colors.green,
                 ),
               ),
