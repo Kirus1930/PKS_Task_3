@@ -53,7 +53,9 @@ class _HomePageState extends State<HomePage> {
 
             ElevatedButton(
               onPressed: _Counter,
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.lightBlue,
+              ),
               child: Text('Push me'),
             ),
             SizedBox(height: 20),
