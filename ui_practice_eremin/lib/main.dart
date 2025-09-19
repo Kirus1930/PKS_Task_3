@@ -44,6 +44,7 @@ class _HomePageState extends State<HomePage> {
             Text(
               'Flutter - кроссплатформенный фреймворк для разработки приложений на языке Dart.',
               style: TextStyle(
+                fontFamily: Schyler,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
                 color: Colors.green,
