@@ -36,17 +36,25 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Практика 3'), centerTitle: true),
+      appBar: AppBar(
+        title: Text('Практика 3'),
+        centerTitle: true,
+        backgroundColor: Color(0xFF7FFFD4),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'Flutter - кроссплатформенный фреймворк для разработки приложений на языке Dart.',
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.green,
+            Container(
+              width: 600,
+              height: 120,
+              child: Text(
+                'Flutter - кроссплатформенный фреймворк для разработки приложений на языке Dart.',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green,
+                ),
               ),
             ),
             SizedBox(height: 20),
